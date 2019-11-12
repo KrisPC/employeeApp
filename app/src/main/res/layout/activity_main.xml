@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/Header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -20,9 +21,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/Subheader"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:gravity="center|center_horizontal"
             android:text="Enter Info:"
@@ -86,6 +87,13 @@
                 android:onClick="onEnterButtonPressed"
                 android:text="Enter:" />
 
+            <Button
+                android:id="@+id/EmployeeList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onEmployeeListPressed"
+                android:text="Employee List" />
+
             <TextView
                 android:id="@+id/firstDisplay"
                 android:layout_width="match_parent"
@@ -123,7 +131,8 @@
                 android:layout_width="match_parent"
                 android:gravity="center_horizontal"
                 android:text="Weight is:"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
     </LinearLayout>

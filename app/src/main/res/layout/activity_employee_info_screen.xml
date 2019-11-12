@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeInfoScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center|center_horizontal"
+                android:text="SCREEN 2"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/firstDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center|center_horizontal"
+                android:text="First name is:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/lastDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:text="Last name is:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ageDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:text="Age is:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/heightDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:text="Height is:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/weightDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Weight is:"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
